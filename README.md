@@ -32,7 +32,7 @@ Foydalanuvchi o'z ovozining qisqa namunasini yuklaydi va istalgan matnni o'sha o
 ### 1. Repozitoriyani klonlash
 
 ```bash
-git clone https://github.com/<username>/voice-clone-app.git
+git clone https://github.com/MrTony8/voice-clone-app.git
 cd voice-clone-app
 ```
 
