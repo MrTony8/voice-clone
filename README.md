@@ -100,7 +100,7 @@ voice-clone/
 └── outputs/            # Yaratilgan audio fayllar
 ```
 
-## ⏱️ Ishlash tezligi
+##  Ishlash tezligi
 
 | Qurilma | ~10 sek audio uchun |
 |---------|---------------------|
