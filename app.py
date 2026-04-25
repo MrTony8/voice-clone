@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import uuid
 import shutil
@@ -104,7 +103,7 @@ async def languages():
             {"code": "ru", "name": "Rus tili"},
         ]
     }
-=======
+
 import os
 import uuid
 import shutil
@@ -210,4 +209,4 @@ async def languages():
             {"code": "ru", "name": "Rus tili"},
         ]
     }
->>>>>>> 9c3834899fb56a5a3f7a1f709c8aa590e52828e5
+
