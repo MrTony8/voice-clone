@@ -1,9 +1,9 @@
-# 🎙️ Ovoz Klonlash Tizimi
+#  Ovoz Klonlash Tizimi
 
 XTTS-v2 modeli asosida qurilgan ovoz klonlash web ilovasi.  
 Foydalanuvchi o'z ovozining qisqa namunasini yuklaydi va istalgan matnni o'sha ovozda eshitadi.
 
-## ✨ Imkoniyatlar
+## Imkoniyatlar
 
 - Ovoz klonlash — 6 sekundlik namuna yetarli
 - Ingliz va rus tillarini qo'llab-quvvatlash
@@ -11,7 +11,7 @@ Foydalanuvchi o'z ovozining qisqa namunasini yuklaydi va istalgan matnni o'sha o
 - Audio yuklab olish (WAV format)
 - CPU va GPU da ishlash
 
-## 🛠️ Texnologiyalar
+##  Texnologiyalar
 
 | Qatlam | Texnologiya |
 |--------|------------|
@@ -20,20 +20,20 @@ Foydalanuvchi o'z ovozining qisqa namunasini yuklaydi va istalgan matnni o'sha o
 | Frontend | HTML, CSS, JavaScript |
 | Audio | PyTorch, Torchaudio |
 
-## 📋 Talablar
+##  Talablar
 
 - Python 3.9+
 - Microsoft C++ Build Tools (Windows)
 - Internet (model birinchi marta yuklanadi, ~2GB)
 - NVIDIA GPU (ixtiyoriy, lekin tavsiya etiladi)
 
-## ⚙️ O'rnatish
+##  O'rnatish
 
 ### 1. Repozitoriyani klonlash
 
 ```bash
-git clone https://github.com/MrTony8/voice-clone-app.git
-cd voice-clone-app
+git clone https://github.com/MrTony8/voice-clone.git
+cd voice-clone
 ```
 
 ### 2. Virtual muhit yaratish
@@ -76,7 +76,7 @@ Brauzerda oching: **http://localhost:8000**
 
 > ⚠️ Birinchi ishga tushirishda XTTS-v2 modeli (~2GB) avtomatik yuklanadi.
 
-## 🚀 Foydalanish
+##  Foydalanish
 
 1. **Ovoz sample** yuklang — WAV yoki MP3 (min 6 sek, shovqinsiz)
 2. **Matn** kiriting — max 500 belgi
@@ -84,10 +84,10 @@ Brauzerda oching: **http://localhost:8000**
 4. **"Ovoz yaratish"** tugmasini bosing
 5. Natijani tinglang va **yuklab oling**
 
-## 📁 Loyiha tuzilmasi
+##  Loyiha tuzilmasi
 
 ```
-voice-clone-app/
+voice-clone/
 ├── app.py              # FastAPI backend
 ├── model.py            # XTTS-v2 model wrapper
 ├── requirements.txt    # Kutubxonalar
@@ -107,11 +107,11 @@ voice-clone-app/
 | CPU | 30–60 sekund |
 | GPU (NVIDIA) | 3–8 sekund |
 
-## 📄 Litsenziya
+##  Litsenziya
 
 XTTS-v2 modeli [Coqui CPML](https://coqui.ai/cpml) litsenziyasi ostida — tijorat bo'lmagan foydalanish uchun bepul.
 
-## 👤 Muallif
+##  Muallif
 
-**Tony** — TATU, Audiovisual Technologies  
+**Tony** — Tashkent University of Information Technologies, Audiovisual Technologies  
 GitHub: [@MrTony8](https://github.com/MrTony8)
